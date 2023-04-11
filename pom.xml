@@ -47,7 +47,7 @@
    		<maven.compiler.source>7</maven.compiler.source>
    		<maven.compiler.target>1.7</maven.compiler.target>
  	</properties>
-	
+</build>
 	<plugin>
              <groupId>org.apache.maven.plugins</groupId>
              <artifactId>maven-surefire-plugin</artifactId>
@@ -56,5 +56,6 @@
         <testFailureIgnore>true</testFailureIgnore>
       </configuration>
    </plugin>
+</build>
 	
 </project>
